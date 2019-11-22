@@ -8,9 +8,9 @@ module.exports = {
     },
     rules: {
         // 4个空格缩进
-        'indent': ['error', 4],
+        'indent': ['error', 4, {SwitchCase: 1}],
         // 声明function时函数名后不加空格
-        'space-before-function-paren': ['error', {'named': 'never'}],
+        'space-before-function-paren': ['error', {named: 'never'}],
         // 数组最后一个元素末尾加逗号
         'comma-dangle': ['error', 'always-multiline'],
         // 对象花括号前后不加空格
@@ -24,7 +24,7 @@ module.exports = {
         // 文末不加空行
         'eol-last': ['error', 'never'],
         // 一行最大字符数。用正则忽略html中的path标签
-        'max-len': ['error', 150, 4, {ignoreStrings: true, ignoreTemplateLiterals: true, 'ignorePattern': 'd=".+"'}],
+        'max-len': ['error', 150, 4, {ignoreStrings: true, ignoreTemplateLiterals: true, ignorePattern: 'd=".+"'}],
         // 在一个表达式中连用逻辑运算符需要加括号
         'no-mixed-operators': ['error'],
         // 尽量消灭未使用的变量
