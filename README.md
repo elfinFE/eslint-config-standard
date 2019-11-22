@@ -1,11 +1,16 @@
-# @vue/eslint-config-standard
+# @elfin-fe/eslint-config-standard
 
-> eslint-config-standard for vue-cli
+> 校精灵团队使用的eslint规则，基于扩展而来
 
-This config is specifically designed to be used by `vue-cli` setups
-and is not meant for outside use (it can be used but some adaptations
-on the user side might be needed - for details see the config file).
-
-A part of its design is that this config may implicitly depend on
-other parts of `vue-cli` setups, such as `eslint-plugin-vue` being
-extended in the same resulting config.
+### 使用方法
+#### 安装
+```bash 
+yarn add @elfin-fe/eslint-config-standard
+```
+#### 引用
+在`.eslintrc.js`文件的`extends`数组中引用规则
+```
+extends: [
+	'@vue/standard',
+]
+```
