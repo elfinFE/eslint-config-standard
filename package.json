@@ -1,6 +1,6 @@
 {
   "name": "@elfin-fe/eslint-config-standard",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "eslint-config-standard for xiaojing0",
   "main": "index.js",
   "publishConfig": {
@@ -16,7 +16,7 @@
   "author": "Lnk",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-standard": "^15.0.1"
+    "eslint-config-standard": "^16.0.2"
   },
   "engines": {
     "npm": "^6.14.10"
