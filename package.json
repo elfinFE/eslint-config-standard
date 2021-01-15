@@ -1,6 +1,6 @@
 {
   "name": "@elfin-fe/eslint-config-standard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint-config-standard for xiaojing0",
   "main": "index.js",
   "publishConfig": {

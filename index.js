@@ -3,9 +3,6 @@ module.exports = {
         // https://github.com/standard/eslint-config-standard/blob/v12.0.0/eslintrc.json
         require.resolve('eslint-config-standard'),
     ],
-    parserOptions: {
-        parser: 'babel-eslint',
-    },
     rules: {
         // 4个空格缩进
         'indent': ['error', 4, {SwitchCase: 1}],
