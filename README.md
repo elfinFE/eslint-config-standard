@@ -5,7 +5,11 @@
 ### 使用方法
 #### 安装
 ```bash 
+# npm 6
 npm install @elfin-fe/eslint-config-standard eslint-plugin-import eslint-plugin-promise eslint-plugin-node --save-dev
+
+# npm 7
+npm install @elfin-fe/eslint-config-standard --save-dev
 ```
 #### 引用
 在`.eslintrc.js`文件的`extends`数组中引用规则
