@@ -1,11 +1,8 @@
 module.exports = {
     extends: [
-        // https://github.com/standard/eslint-config-standard/blob/v12.0.0/eslintrc.json
-        require.resolve('eslint-config-standard'),
+        // https://github.com/standard/eslint-config-standard/blob/v16.0.2/eslintrc.json
+        'standard',
     ],
-    parserOptions: {
-        parser: 'babel-eslint',
-    },
     rules: {
         // 4个空格缩进
         'indent': ['error', 4, {SwitchCase: 1}],
